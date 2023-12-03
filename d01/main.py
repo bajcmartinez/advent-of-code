@@ -39,6 +39,6 @@ with open('input.txt', 'r') as file:
         digits = re.findall("(?=([0-9]|one|two|three|four|five|six|seven|eight|nine))", line)
         result += digits_map[digits[0]]*10 + digits_map[digits[-1]]
 
-print('[part 1]', result)
+print('[part 2]', result)
 
 
